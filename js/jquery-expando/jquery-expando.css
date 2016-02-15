@@ -1,0 +1,31 @@
+div.expando_text {
+	height:0;
+	overflow:hidden;
+	visibility:collapse;
+}
+
+div.expando_text.show {
+	height:auto;
+	visibility:visible;
+	background: #b3d1ff;
+	border: 1px solid #555;
+	border-radius: 10px;
+	padding: 0.5em 1em;
+	margin:  0.5em 1em;
+}
+
+a.expando_link {
+	display:block;
+	font-size:14px;
+	height:20px;
+	line-height:20px;
+}
+
+a.expando_link>span.view_modifier {
+	background:url(plus.gif) left center no-repeat;
+	padding-left:10px;
+}
+
+a.expando_link>span.view_modifier.show {
+	background:url(minus.gif) left center no-repeat;
+}
