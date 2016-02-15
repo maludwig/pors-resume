@@ -5,4 +5,37 @@
 html,
 body {
   margin: 0;
+  background-color: #424242;
+  font-family: 'Inconsolata';
+  color: #ffffff;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #fa0000;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 15%;
+}
+.title {
+  margin: 0 auto;
+  font-size: 5em;
+}
+#mike {
+  margin-top: 20px;
+}
+a,
+#contact {
+  text-decoration: none;
+  color: #fff;
+  margin: 5px;
+}
+.btn,
+#contact {
+  margin: 20px;
+  background: none;
+  border-radius: 0;
+  color: #fff;
 }
