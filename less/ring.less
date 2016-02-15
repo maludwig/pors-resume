@@ -1,0 +1,27 @@
+// main: style.less
+@ring-size: 100px;
+@icon-size: 16px;
+
+.skill {
+	position: relative;
+	display: inline-block;
+	width: @ring-size;
+	height: @ring-size;
+	.ring {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: @ring-size;
+		height: @ring-size;
+	}
+	p {
+		color: white;
+	}
+	img {
+		position:absolute;
+		top: 7*@ring-size/12;
+		left: @ring-size/2 - @icon-size/2;
+		width: @icon-size;
+		height: auto;
+	}
+}

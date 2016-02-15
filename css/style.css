@@ -2,7 +2,38 @@
 .nav {
   display: block;
 }
+.skill {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+.skill .ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+.skill p {
+  color: white;
+}
+.skill img {
+  position: absolute;
+  top: 58.33333333px;
+  left: 42px;
+  width: 16px;
+  height: auto;
+}
 html,
 body {
   margin: 0;
+  background: #424242;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fa0000;
 }
