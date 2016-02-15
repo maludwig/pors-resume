@@ -45,6 +45,7 @@ hr {
 .title {
   margin: 0 auto;
   font-size: 5em;
+  color: #fff;
 }
 #mike {
   margin-top: 20px;
@@ -68,4 +69,10 @@ h3,
 h4,
 h5 {
   color: #fa0000;
+}
+.small {
+  font-size: .8em;
+}
+.white {
+  color: #fff;
 }
