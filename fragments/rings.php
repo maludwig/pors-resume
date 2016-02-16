@@ -1,4 +1,3 @@
-
 <div class="col-lg-6 col-sm-12" id="dev">
 	<div class="row">
 		<div class="col-xs-12">
@@ -43,6 +42,7 @@
 		</div>
 	</div>
 </div>
+
 <div class="col-lg-6 col-sm-12" id="tech">
 	<div class="row">
 		<div class="col-xs-12">
@@ -68,7 +68,8 @@
 	<div class="row">
 		<div class="col-xs-12">
 			<div class="skill">
-				<p>Visual<br />Studio</p>
+				<p>Visual
+					<br />Studio</p>
 				<canvas class="ring" data-fill="13" width="300" height="300"></canvas>
 			</div>
 			<div class="skill">

@@ -18,11 +18,11 @@
 		$(function () {
 			$(".ring").ring();
 			$(".skill p").center();
-			$(window).resize(function() {
+			$(window).resize(function () {
 				$(".skill p").center();
 			});
 		});
-		$(window).load(function() {
+		$(window).load(function () {
 			$(".skill p").center();
 		});
 	</script>
@@ -36,35 +36,68 @@
 		<h2 class="title">PORS</h2>
 
 		<div id="contact">
-			<a href="mailto:mike.pors@gmail.com"><span class="glyphicon glyphicon-envelope"></span> mike.pors@gmail.com</a>
-			<a href="tel:403-477-9974"><span class="glyphicon glyphicon-phone"></span> 403-477-9974</a>
-			<a href="files/MikePors.pdf"><span class="glyphicon glyphicon-download"></span> PDF</a>
+
+			<div class="col-md-4">
+				<a href="mailto:mike.pors@gmail.com"><span class="glyphicon glyphicon-envelope"></span> mike.pors@gmail.com</a>
+			</div>
+			<div class="col-md-4">
+				<a href="tel:403-477-9974"><span class="glyphicon glyphicon-phone"></span> 403-477-9974</a>
+			</div>
+			<div class="col-md-4">
+				<a href="files/MikePors.pdf"><span class="glyphicon glyphicon-download"></span> PDF</a>
+			</div>
+
 		</div>
 	</header>
 	<div class="container">
 		<div class="col-lg-6 col-sm-12" id="bio">
-			<h3>Bio</h3>
+			<h3>Summary</h3>
+			<p>Entry level java developer with one year of IT experience and a deep understanding of development best practices. A proven leader, excelling in time management and interpersonal relations, has demonstrated the ability to excel in both individual tasks as well as group projects.
+			</p>
+			<p>An individual with an affinity for self-directed study, excelling in fast-paced work environments. Flexible and analytical with a keen eye for details; skilled at synthesizing and editing information to achieve overall objectives.
+			</p>
 		</div>
 
-		<div class="col-lg-6 col-sm-12" id="certs">
-			<h3>Degrees & Certifications</h3>
-			<h4 class="white">MSc Pure Mathematics</h4>
-			<p class="small">University of Calgary</p>
-			<h4 class="white">BSc Pure Mathematics - Honours</h4>
-			<p class="small">University of Calgary</p>
-			<h4 class="white">Certified Associate Java SE 8 Programmer</h4>
-			<p class="small">Oracle Corporation</p>
-		</div>
-		<?php include("fragments/rings.php"); ?>
-		<div class="col-lg-6 col-sm-12" id="history">
-			<h3>History</h3>
-		</div>
-		<div class="col-lg-6 col-sm-12" id="awards">
-			<h3>Awards</h3>
-		</div>
-		<footer>
-		</footer>
+		<?php include("fragments/certs.php"); ?>
+			<?php include("fragments/rings.php"); ?>
+
+				<div class="col-lg-6 col-sm-12" id="history">
+					<h3>History</h3>
+				</div>
+
+				<div class="col-lg-6 col-sm-12" id="awards">
+					<h3>Awards</h3>
+				</div>
+				<div class="col-lg-1 col-sm-2">
+					<canvas id="h_timeline" width="25" height="500" style="border:1px solid #000000;">
+					</canvas>
+				</div>
+				<div class="col-lg-5 col-sm-10">
+				</div>
+
+				<div class="col-lg-1 col-sm-2">
+					<canvas id="a_timeline" width="25" height="500" style="border:1px solid #000000;">
+					</canvas>
+				</div>
+				<div class="col-lg-5 col-sm-10">
+				</div>
+
+
 	</div>
+	<footer class="footer">
+		<div class="container">
+			<p class="small col-xs-4"><a href="mailto:mike.pors@gmail.com">mike.pors@gmail.com</a></p>
+			<p class="small col-xs-4 text-center">&copy; Mike Pors 2016</p>
+			<div class="col-xs-4 text-right">
+				<a href="https://github.com/MikePors" target="_blank"><img class="foot_img img-responsive" src="img/gitHub.png"></a>
+				<a href="https://www.linkedin.com/in/michaelpors" target="_blank"><img class="foot_img img-responsive" src="img/linkedIn.png"></a>
+				<a href="https://www.codeeval.com/profile/Mike.Pors/" target="_blank"><img class="foot_img img-responsive" id="code_eval" src="img/codeEval.png" </a>
+
+			</div>
+
+		</div>
+	</footer>
+
 </body>
 
 </html>
