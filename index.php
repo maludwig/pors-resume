@@ -18,6 +18,12 @@
 		$(function () {
 			$(".ring").ring();
 			$(".skill p").center();
+			$(window).resize(function() {
+				$(".skill p").center();
+			});
+		});
+		$(window).load(function() {
+			$(".skill p").center();
 		});
 	</script>
 </head>
@@ -30,14 +36,12 @@
 		<h2 class="title">PORS</h2>
 
 		<div id="contact">
-			<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-envelope"></span><a href="mailto:mike.pors@gmail.com">e-mail</a></button>
-
-			<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-phone"></span><a href="tel:403-477-9974">403-477-9974</a></button>
-
-			<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-download"></span> PDF</button>
+			<a href="mailto:mike.pors@gmail.com"><span class="glyphicon glyphicon-envelope"></span> mike.pors@gmail.com</a>
+			<a href="tel:403-477-9974"><span class="glyphicon glyphicon-phone"></span> 403-477-9974</a>
+			<a href="files/MikePors.pdf"><span class="glyphicon glyphicon-download"></span> PDF</a>
 		</div>
 	</header>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="col-lg-6 col-sm-12" id="bio">
 			<h3>Bio</h3>
 		</div>
@@ -51,87 +55,7 @@
 			<h4 class="white">Certified Associate Java SE 8 Programmer</h4>
 			<p class="small">Oracle Corporation</p>
 		</div>
-		<div class="col-lg-6 col-sm-12" id="dev">
-			<div class="row">
-				<h3>Development</h3>
-				<div class="skill">
-					<p>Java</p>
-					<img src="img/cert.png">
-					<canvas class="ring" data-fill="24" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>Python</p>
-					<canvas class="ring" data-fill="24" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>XML</p>
-					<canvas class="ring" data-fill="23" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>JS</p>
-					<canvas class="ring" data-fill="20" width="100" height="100"></canvas>
-				</div>
-			</div>
-			<div class="row">
-				<div class="skill">
-					<p>C#</p>
-					<canvas class="ring" data-fill="20" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>SQL</p>
-					<canvas class="ring" data-fill="18" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>HTML</p>
-					<canvas class="ring" data-fill="12" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>CSS</p>
-					<canvas class="ring" data-fill="6" width="100" height="100"></canvas>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-6 col-sm-12" id="tech">
-			<div class="row">
-				<h3>Technologies</h3>
-				<div class="skill">
-					<p>Android</p>
-					<canvas class="ring" data-fill="23" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>LaTeX</p>
-					<canvas class="ring" data-fill="21" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>Windows</p>
-					<canvas class="ring" data-fill="20" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>Git</p>
-					<canvas class="ring" data-fill="15" width="100" height="100"></canvas>
-				</div>
-			</div>
-			<div class="row">
-				<div class="skill">
-					<p>Visual
-						<br /> Studio
-					</p>
-					<canvas class="ring" data-fill="13" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>Django</p>
-					<canvas class="ring" data-fill="10" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>Cloud</p>
-					<canvas class="ring" data-fill="7" width="100" height="100"></canvas>
-				</div>
-				<div class="skill">
-					<p>Linux</p>
-					<canvas class="ring" data-fill="6" width="100" height="100"></canvas>
-				</div>
-			</div>
-		</div>
+		<?php include("fragments/rings.php"); ?>
 		<div class="col-lg-6 col-sm-12" id="history">
 			<h3>History</h3>
 		</div>

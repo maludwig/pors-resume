@@ -17,13 +17,32 @@
 }
 .skill p {
   color: white;
+  text-align: center;
 }
 .skill img {
   position: absolute;
+  height: auto;
   top: 58.33333333px;
   left: 42px;
   width: 16px;
-  height: auto;
+}
+@media screen and (min-width: 640px) {
+  .skill {
+    width: 110px;
+    height: 110px;
+  }
+  .skill .ring {
+    width: 110px;
+    height: 110px;
+  }
+  .skill p {
+    font-size: 1.1em;
+  }
+  .skill img {
+    top: 64.16666667px;
+    left: 46.2px;
+    width: 17.6px;
+  }
 }
 html,
 body {
@@ -43,25 +62,24 @@ hr {
   width: 15%;
 }
 .title {
-  margin: 0 auto;
+  margin: 0 auto 25px;
   font-size: 5em;
   color: #fff;
 }
 #mike {
   margin-top: 20px;
+  margin-bottom: 0px;
 }
-a,
-#contact {
+#contact a {
+  margin: 30px;
+  border: 1px solid #ffffff;
+  padding: 10px;
   text-decoration: none;
-  color: #fff;
-  margin: 5px;
+  color: #ffffff;
 }
-.btn,
-#contact {
-  margin: 20px;
-  background: none;
-  border-radius: 0;
-  color: #fff;
+#contact a:hover {
+  color: #424242;
+  background: #ffffff;
 }
 h1,
 h2,

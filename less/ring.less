@@ -1,6 +1,9 @@
 // main: style.less
 @ring-size: 100px;
 @icon-size: 16px;
+@lg-scale: 1.1;
+@lg-ring-size: @ring-size * @lg-scale;
+@lg-icon-size: @icon-size * @lg-scale;
 
 .skill {
 	position: relative;
@@ -16,12 +19,29 @@
 	}
 	p {
 		color: white;
+		text-align: center;
 	}
 	img {
 		position:absolute;
+		height: auto;
 		top: 7*@ring-size/12;
 		left: @ring-size/2 - @icon-size/2;
 		width: @icon-size;
-		height: auto;
+	}
+	@media screen and (min-width: 640px) {
+		width: @lg-ring-size;
+		height: @lg-ring-size;
+		.ring {
+			width: @lg-ring-size;
+			height: @lg-ring-size;
+		}
+		p {
+			font-size: @lg-scale * 1em;
+		}
+		img {
+			top: 7*@lg-ring-size/12;
+			left: @lg-ring-size/2 - @lg-icon-size/2;
+			width: @lg-icon-size;
+		}
 	}
 }

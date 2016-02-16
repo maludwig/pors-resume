@@ -1,10 +1,15 @@
 // out: ../css/style.css
 @import "nav.less";
 @import "ring.less";
+
+@text-color: #fff;
+@bg-color: #424242;
+@h-red: #fa0000;
+
 html,
 body {
 	margin: 0;
-	background-color: #424242;
+	background-color: @bg-color;
 	font-family: 'Inconsolata', ;
 	color: #ffffff;
 }
@@ -13,7 +18,7 @@ hr {
 	display: block;
 	height: 1px;
 	border: 0;
-	border-top: 1px solid #fa0000;
+	border-top: 1px solid @h-red;
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -21,28 +26,26 @@ hr {
 }
 
 .title {
-	margin: 0 auto;
+	margin: 0 auto 25px;
 	font-size: 5em;
 	color: #fff;
 }
 
 #mike {
 	margin-top: 20px;
+	margin-bottom: 0px;
 }
 
-a,
-#contact {
+#contact a {
+	margin: 30px;
+	border: 1px solid @text-color;
+	padding: 10px;
 	text-decoration: none;
-	color: #fff;
-	margin: 5px;
-}
-
-.btn,
-#contact {
-	margin: 20px;
-	background: none;
-	border-radius: 0;
-	color: #fff;
+	color: @text-color;
+	&:hover {
+		color: @bg-color;
+		background: @text-color;
+	}
 }
 
 h1,
@@ -50,7 +53,7 @@ h2,
 h3,
 h4,
 h5 {
-	color: #fa0000;
+	color: @h-red;
 }
 
 .small {
