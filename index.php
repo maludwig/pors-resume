@@ -61,15 +61,9 @@
 		<?php include("fragments/certs.php"); ?>
 			<?php include("fragments/rings.php"); ?>
 
-				<div class="col-lg-6 col-sm-12" id="history">
-					<h3>History</h3>
-				</div>
-
-				<div class="col-lg-6 col-sm-12" id="awards">
-					<h3>Awards</h3>
-				</div>
 
 				<div class="col-lg-6 col-sm-12">
+					<h3>History</h3>
 					<ul>
 						<li>
 							<p>Andoid App Development <span class="red">2015-2016</span>
@@ -95,6 +89,7 @@
 				</div>
 
 				<div class="col-lg-6 col-sm-12">
+					<h3>Awards</h3>
 					<ul>
 						<li>
 							<p>Eric Milner Prize <span class="red">2012-2013</span>
@@ -118,29 +113,11 @@
 						</li>
 					</ul>
 				</div>
-
-				<!--
-				<div class="col-lg-1 col-sm-2">
-					<canvas id="h_timeline" width="25" height="500" style="border:1px solid #000000;">
-					</canvas>
-				</div>
-				<div class="col-lg-5 col-sm-10">
-				</div>
-
-				<div class="col-lg-1 col-sm-2">
-					<canvas id="a_timeline" width="25" height="500" style="border:1px solid #000000;">
-					</canvas>
-				</div>
-				<div class="col-lg-5 col-sm-10">
-				</div>
-		-->
-
-
 	</div>
 	<footer class="footer">
 		<div class="container">
 			<p class="small col-xs-4"><a href="mailto:mike.pors@gmail.com">mike.pors@gmail.com</a></p>
-			<p class="small col-xs-4 text-center">&copy; 2016 Mike Pors & StunningWeb</p>
+			<p class="small col-xs-4 text-center">&copy; 2016 Mike Pors, StunningWeb</p>
 			<div class="col-xs-4 text-right">
 				<a href="https://github.com/MikePors" target="_blank"><img class="foot_img img-responsive" src="img/gitHub.png"></a>
 				<a href="https://www.linkedin.com/in/michaelpors" target="_blank"><img class="foot_img img-responsive" src="img/linkedIn.png"></a>
