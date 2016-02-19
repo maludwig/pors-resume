@@ -122,7 +122,12 @@ a {
 }
 ul {
   margin: 0 0 100px 0;
+  list-style-type: square;
 }
 li {
   margin: 0 0 10px 0;
+  color: #fa0000;
+}
+li p {
+  color: #ffffff;
 }

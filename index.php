@@ -71,31 +71,51 @@
 
 				<div class="col-lg-6 col-sm-12">
 					<ul>
-						<li>Andoid App Development <span class="red">2015-2016</span>
-							<br /> <span class="small">Department of Psychology - Foothills Medical Centre</span></li>
-						<li>Graduate Student Researcher <span class="red">2012-2015</span>
-							<br /> <span class="small">Department of Math and Stats - University of Calgary</span></li>
-						<li>Teaching Assistant <span class="red">2011-2014</span>
-							<br /> <span class="small">Department of Math and Stats - University of Calgary</span></li>
-						<li>Undergraduate Research Assistant <span class="red">2012</span>
-							<br /> <span class="small">Department of Math and Stats - University of Calgary</span></li>
-						<li>Undergraduate Research Assistant <span class="red">2011</span>
-							<br /> <span class="small">Department of Philosophy - University of Calgary</span></li>
+						<li>
+							<p>Andoid App Development <span class="red">2015-2016</span>
+								<br /> <span class="small">Department of Psychology - Foothills Medical Centre</span></p>
+						</li>
+						<li>
+							<p>Graduate Student Researcher <span class="red">2012-2015</span>
+								<br /> <span class="small">Department of Math and Stats - University of Calgary</span></p>
+						</li>
+						<li>
+							<p>Teaching Assistant <span class="red">2011-2014</span>
+								<br /> <span class="small">Department of Math and Stats - University of Calgary</span></p>
+						</li>
+						<li>
+							<p>Undergraduate Research Assistant <span class="red">2012</span>
+								<br /> <span class="small">Department of Math and Stats - University of Calgary</span></p>
+						</li>
+						<li>
+							<p>Undergraduate Research Assistant <span class="red">2011</span>
+								<br /> <span class="small">Department of Philosophy - University of Calgary</span></p>
+						</li>
 					</ul>
 				</div>
 
 				<div class="col-lg-6 col-sm-12">
 					<ul>
-						<li>Eric Milner Prize <span class="red">2012-2013</span>
-							<br /> <span class="small">Award recognizing "not only expertise in mathematics, but also a capacity to share that expertise with others".</span></li>
-						<li>3MT Competition (3rd Place) <span class="red">2014</span>
-							<br /> <span class="small">Awarded to the graduate student who can present the best thesis topic in three minutes or less to a lay audience.</span></li>
-						<li>NSERC CGS-M <span class="red">2013-2014</span>
-							<br /> <span class="small">Competitive federal award granted to a Canadian master's student who is studying the natural sciences or engineering.</span></li>
-						<li>Queen Elizabeth II Graduate Scholarship <span class="red">2012-2014</span>
-							<br /> <span class="small">Prestegious provincial award for academic excellence at the masters or doctoral levels of study.</span></li>
-						<li>Graduate Teaching Excellence Award <span class="red">2012</span>
-							<br /> <span class="small">Award based on student feedback at the end of each semester.</span></li>
+						<li>
+							<p>Eric Milner Prize <span class="red">2012-2013</span>
+								<br /> <span class="small">Award recognizing "not only expertise in mathematics, but also a capacity to share that expertise with others".</span></p>
+						</li>
+						<li>
+							<p>3MT Competition (3rd Place) <span class="red">2014</span>
+								<br /> <span class="small">Awarded to the graduate student who can present the best thesis topic in three minutes or less to a lay audience.</span></p>
+						</li>
+						<li>
+							<p>NSERC CGS-M <span class="red">2013-2014</span>
+								<br /> <span class="small">Competitive federal award granted to a Canadian master's student who is studying the natural sciences or engineering.</span></p>
+						</li>
+						<li>
+							<p>Queen Elizabeth II Graduate Scholarship <span class="red">2012-2014</span>
+								<br /> <span class="small">Prestegious provincial award for academic excellence at the masters or doctoral levels of study.</span></p>
+						</li>
+						<li>
+							<p>Graduate Teaching Excellence Award <span class="red">2012</span>
+								<br /> <span class="small">Award based on student feedback at the end of each semester.</span></p>
+						</li>
 					</ul>
 				</div>
 
