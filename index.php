@@ -44,7 +44,7 @@
 				<a href="tel:403-477-9974"><span class="glyphicon glyphicon-phone"></span> 403-477-9974</a>
 			</div>
 			<div class="col-md-4">
-				<a href="files/MikePors.pdf"><span class="glyphicon glyphicon-download"></span> PDF</a>
+				<a href="files/MikePorsResume.pdf"><span class="glyphicon glyphicon-download"></span> PDF</a>
 			</div>
 
 		</div>
