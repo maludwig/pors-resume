@@ -140,7 +140,7 @@
 	<footer class="footer">
 		<div class="container">
 			<p class="small col-xs-4"><a href="mailto:mike.pors@gmail.com">mike.pors@gmail.com</a></p>
-			<p class="small col-xs-4 text-center">&copy; Mike Pors 2016</p>
+			<p class="small col-xs-4 text-center">&copy; 2016 Mike Pors & StunningWeb</p>
 			<div class="col-xs-4 text-right">
 				<a href="https://github.com/MikePors" target="_blank"><img class="foot_img img-responsive" src="img/gitHub.png"></a>
 				<a href="https://www.linkedin.com/in/michaelpors" target="_blank"><img class="foot_img img-responsive" src="img/linkedIn.png"></a>
